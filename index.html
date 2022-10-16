@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+
+    <title>Bedrift 5</title>
+    <base href="/">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="App/App.css?565" />
+
+</head>
+<body ng-app="app" class="text-light">
+
+    
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-5 mx-auto">
+
+                <h1 class="mb-5">Bedrift 5</h1>
+                <home-component></home-component>
+
+            </div>
+        </div>
+    </div>
+    
+    <video id="bgvid" autoplay muted loop>
+		<source src="Videos/Background.mp4" type="video/mp4">
+	</video>
+
+    <script>
+        window.onload = function()
+        {
+            document.getElementById("bgvid").playbackRate = 0.65;
+        }
+    </script>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular-cookies.js"></script>
+    
+    <script src="App/App.js?516" type="module"></script>
+
+</body>
+</html>
